@@ -44,7 +44,7 @@ function App() {
                 </h1>
                 <p className="font-lexend font-light mb-8">{item.text}</p>
                 <button
-                  className={`absolute bottom-12 py-3 px-8 rounded-full bg-white text-sm font-lexend font-bold ${item.colorText}`}
+                  className={`absolute bottom-12 py-3 px-8 rounded-full border bg-white text-sm font-lexend font-bold ${item.colorText} hover:text-white hover:bg-transparent transition-all`}
                 >
                   Learn More
                 </button>
